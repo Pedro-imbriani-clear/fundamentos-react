@@ -14,11 +14,16 @@ import TabelaProdutos from './components/repetiçao/TabelaProdutos';
 import DiretaPai from './components/comunicaçao/DiretaPai';
 import IndiretaPai from './components/comunicaçao/IndiretaPai';
 import Input from './components/formulario/Input';
+import Contador from './components/contador/contador';
 export default () => (
 
     <div className='App'>
         <h1>Fundamentos React</h1>
         <div className='Cards'>
+        <Card titulo='#12 contador' color="#424242">
+                <Contador numeroInicial={100}></Contador>
+
+            </Card>
         <Card titulo='#11 Componente Controlado' color="#e45f56">
                 <Input></Input>
 
