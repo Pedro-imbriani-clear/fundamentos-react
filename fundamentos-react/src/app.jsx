@@ -13,12 +13,17 @@ import ComParemetro from './components/basicos/ComParametro'
 import TabelaProdutos from './components/repetiçao/TabelaProdutos';
 import DiretaPai from './components/comunicaçao/DiretaPai';
 import IndiretaPai from './components/comunicaçao/IndiretaPai';
+import Input from './components/formulario/Input';
 export default () => (
 
     <div className='App'>
         <h1>Fundamentos React</h1>
         <div className='Cards'>
-            <Card titulo='#10 Comunicaçao Indireta' color="#59323c">
+        <Card titulo='#11 Componente Controlado' color="#e45f56">
+                <Input></Input>
+
+            </Card>
+            <Card titulo='#10 Comunicaçao Indireta' color="#8bad39">
                 <IndiretaPai></IndiretaPai>
 
             </Card>
